@@ -2,7 +2,7 @@ import chrtUp from "../../assets/chart-up.svg";
 import chrtDown from "../../assets/chart-down.svg";
 import { RotatingLines } from "react-loader-spinner";
 import styles from "./TableCoin.module.css";
-import { marketChart } from "../../services/CryptoApi";
+import { marketChart } from "../../services/cryptoApi";
 
 function TableCoins({ coins, isLoading, setChart, currencySymbol }) {
   // console.log(coins);
